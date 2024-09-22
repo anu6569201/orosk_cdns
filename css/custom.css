@@ -1,0 +1,35 @@
+.active .sidebar-items{
+    font-weight: 800;
+    font-size:medium;
+}
+.dt-length{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: left;
+}
+.btn.dropdown-toggle[data-toggle="dropdown"]{
+    margin: 0;
+}
+.dt-search{
+    display: none;
+}
+.alert-container{
+    padding: 0;
+}
+@media (max-width: 768px){
+    *{
+        font-size: 13px;
+    }
+    .table-responsive *{
+        font-size: 10px;
+    }
+    .items_adding_table{
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .items_adding_table *{
+        font-size: 7px;
+    }
+}
